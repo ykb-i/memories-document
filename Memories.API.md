@@ -191,7 +191,7 @@ HTTP/1.1 500 Internal Server Error
 |---|:---:|:---:|:---:|
 | userId | String | 사용자 아이디(영문과 숫자로만 이루어진 6자 이상 20자 이하 문자열) | O |
 | userPassword | String | 사용자 비밀번호(영문 숫자 조합으로 이루어진 8자 이상 13자 이하 문자열) | O |
-| name | String | 사용자 비밀번호(한글로만 이루어진 2자 이상 5자 이하 문자열) | O |
+| name | String | 사용자 이름(한글로만 이루어진 2자 이상 5자 이하 문자열) | O |
 | address | String | 사용자 주소 | O |
 | detailAddress | String | 사용자 상세 주소 | x |
 | joinType | String | 가입 경로 (NORMAL: 일반, KAKAO: 카카오, NAVER: 네이버) | O |
